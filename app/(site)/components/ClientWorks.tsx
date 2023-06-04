@@ -4,7 +4,7 @@ import showcase2 from "@/public/assets/img/showcase2.png"
 
 const ClientWorks = () => {
   return (
-    <div className='my-20 px-4'>
+    <div className='my-20 px-4 max-w-screen-xl mx-auto'>
       <div className='md:flex justify-between gap-4'>
         <h2 className='text-3xl flex-1 pb-4'>
           Our Recent <br />
@@ -16,10 +16,14 @@ const ClientWorks = () => {
       </div>
       <div className='md:flex justify-between gap-4 mt-4'>
         <div className='flex-1'>
-          <Image src={showcase1} alt="work_showcase" />
+          <div className="bg-slate-200 p-8">
+            <Image src={showcase1} alt="work_showcase" />
+          </div>
         </div>
         <div className='flex-1'>
-          <Image src={showcase2} alt="work_showcase" />
+          <div className="bg-slate-200 p-8">
+            <Image src={showcase2} alt="work_showcase" />
+          </div>        
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 235, 238, 239; /* Adjusted to a lighter value */
+  --background-start-rgb: 249, 245, 242; /* Adjusted to a lighter value */
   --background-end-rgb: 255, 255, 255; /* Adjusted to a lighter value */
 }
 

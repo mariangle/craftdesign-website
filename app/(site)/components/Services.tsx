@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className='bg-dark text-white'>
       {/* START SECTION*/}
-      <div className="max-w-screen-lg mx-auto px-4 py-20 ">
+      <div className="max-w-screen-xl mx-auto px-4 py-20 ">
         <div className='md:flex justify-between mb-8 items-end'>
           <div className='flex-1'>
             <h2 className='text-3xl'>
