@@ -1,10 +1,11 @@
 import ServicesGallery from "./ServicesGallery"
+import ImageSlider from "./ImageSlider"
 
 const Services = () => {
   return (
     <div className='bg-dark text-white'>
       {/* START SECTION*/}
-      <div className="max-w-screen-xl mx-auto px-4 py-20 ">
+      <div className="max-w-screen-xl mx-auto px-4 py-20 lg:px-12">
         <div className='md:flex justify-between mb-8 items-end'>
           <div className='flex-1'>
             <h2 className='text-3xl'>
@@ -20,10 +21,10 @@ const Services = () => {
         </div>
         {/* GALLERY SECTION*/}
         <ServicesGallery />
-        <div className="md:flex itens-end gap-4">
+        <div className="md:flex itens-end justify-between gap-4 py-20">
           {/* END SECTION*/}
           <div className="flex-1">
-            <h2 className="text-3xl mb-4">
+            <h2 className="text-5xl mb-6">
               <b>Built Different</b><br />
               With Passion
             </h2>
@@ -32,7 +33,7 @@ const Services = () => {
             </p>
           </div>
           <div className="flex-1">
-            image carrousel
+            <ImageSlider />
           </div>
         </div>
       </div>

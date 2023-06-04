@@ -2,8 +2,12 @@ import Link from "next/link"
 
 const Nav = () => {
   return (
-    <nav className='flex justify-between py-6 max-w-screen-xl mx-auto px-4 items-center'>
-        <div><b><Link href="/">CRAFT</Link></b></div>
+    <nav className='flex justify-between py-6 max-w-screen-xl mx-auto px-4 items-center lg:px-12'>
+        <div>
+          <b>
+            <Link href="/"><span className="bg-gradient-to-r from-blue">CRAFTD</span>ESIGN</Link>
+          </b>
+        </div>
         <div>
             <ul className='flex gap-6'>
                 <li><Link href="/works">Our Works</Link></li>
