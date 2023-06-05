@@ -1,3 +1,9 @@
+## CraftDesign
+CraftDesign is a website that draws inspiration from a Dribbble design while incorporating modifications to enhance accessibility and optimize SEO. The primary goal of this project is to achieve high performance results and ensure optimal user experience by using best practices and improve overall website quality.
+
+![image](https://github.com/mariangle/next-agency-website/assets/124585244/678c88d0-87f0-42ca-90b1-c3173f797ca3)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
