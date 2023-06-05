@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
           <div className="w-64 bg-dark h-32 relative md:flex hidden justify-center">
             <div className="absolute bg-blue-600 rounded-full w-44 h-44 flex items-center justify-center border-white border-8 cursor-pointer -translate-y-1/2 text-white text-3xl hover:bg-blue-800 transition hover:scale-95">
-                Let's <br />
+                Let&apos;s <br />
                 Talk
             </div>
           </div>
