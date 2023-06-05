@@ -23,7 +23,7 @@ const Nav = () => {
             </ul>
         </div>
         <div className="flex items-center gap-4">
-            <Button className='bg-white p-2 md:px-6 md:py-3 shadow-xl'>
+            <Button className='bg-white p-2 md:px-6 md:py-3 shadow-xl dark:bg-gray-800'>
               <Link href="/contact" className="flex items-center gap-2">
                 Contact Us
                 <span className="hidden md:block"><FiPhoneCall /></span>
