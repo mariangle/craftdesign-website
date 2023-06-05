@@ -1,7 +1,7 @@
 "use client" 
 
 import { useState, useEffect } from 'react';
-import img1 from '@/public/assets/img/img1.png';
+import img1 from '@/public/assets/img/img1.jpg';
 import img2 from '@/public/assets/img/img2.png';
 import Image from 'next/image';
 import Button from '@/components/Button';
