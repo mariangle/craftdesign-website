@@ -1,11 +1,13 @@
 "use client" 
-import { useState } from 'react';
+
+import { useState, useEffect } from 'react';
 import img1 from '@/public/assets/img/img1.png';
 import img2 from '@/public/assets/img/img2.png';
 import Image from 'next/image';
+import Button from '@/components/Button';
 
-import { HiOutlineArrowLeft } from "react-icons/hi"
-import { HiOutlineArrowRight } from "react-icons/hi"
+import { HiOutlineArrowLeft } from 'react-icons/hi';
+import { HiOutlineArrowRight } from 'react-icons/hi';
 
 const ImageSlider = () => {
   const images = [img1, img2];
@@ -19,20 +21,37 @@ const ImageSlider = () => {
     setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
   };
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      goToNext();
+    }, 5000); 
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [])
+
   return (
-    <div>
-      <div className="flex justify-center">
-        <Image src={images[currentIndex]} alt="slider" className="aspect-square lg:max-w-sm" />
+    <div className="md:max-w-sm mx-auto mt-8 md:mt-0">
+      <div className="relative aspect-square">
+        {images.map((image, index) => (
+          <Image
+            key={index}
+            src={image}
+            alt="slider"
+            className={`absolute top-0 left-0 transition-opacity duration-500 aspect-square ${
+              index === currentIndex ? 'opacity-100' : 'opacity-0'
+            }`}
+          />
+        ))}
       </div>
-      <div className='lg:max-w-sm mx-auto flex justify-end items-center py-4'>
-        <div className='flex gap-2'>
-          <button onClick={goToPrevious} className='bg-slate-400 aspect-square p-2'>
+      <div className="flex justify-end items-center mt-4 gap-2">
+        <Button onClick={goToPrevious} className="bg-slate-400 aspect-square hover:bg-slate-600 transition">
           <HiOutlineArrowLeft />
-            </button>
-            <button onClick={goToNext} className='bg-blue-600 aspect-square p-2'>
-            <HiOutlineArrowRight />
-            </button>
-        </div>
+        </Button>
+        <Button onClick={goToNext} className="aspect-square" style="hero">
+          <HiOutlineArrowRight />
+        </Button>
       </div>
     </div>
   );
