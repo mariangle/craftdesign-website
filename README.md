@@ -1,5 +1,5 @@
 ## CraftDesign
-CraftDesign is a website that draws inspiration from a Dribbble design while incorporating modifications to enhance accessibility and optimize SEO. The primary goal of this project is to achieve high performance results and ensure optimal user experience by using best practices and improve overall website quality.
+CraftDesign is a website that draws inspiration from a Dribbble design while incorporating modifications to enhance accessibility and optimize SEO. The primary goal of this project is to achieve high performance results and ensure an optimal user experience. This is accomplished by implementing best practices and server-side rendering to improve the overall quality of the website.
 
 ![image](https://github.com/mariangle/next-agency-website/assets/124585244/678c88d0-87f0-42ca-90b1-c3173f797ca3)
 
