@@ -29,7 +29,7 @@ const Services = () => {
               With Passion
             </h2>
             <p className="text-lg leading-loose">
-              "<b><span className="bg-gradient-to-r from-blue-500">CRAFT</span></b>DESIGN is a design and strategy company that tackles challenges head-on. With our unwavering passion, we <b>create innovative solutions</b> and build our reputation."
+              &quot;<b><span className="bg-gradient-to-r from-blue-500">CRAFT</span></b>DESIGN is a design and strategy company that tackles challenges head-on. With our unwavering passion, we <b>create innovative solutions</b> and build our reputation.&quot;
             </p>
           </div>
           <div className="flex-1">

@@ -12,7 +12,7 @@ const Hero = () => {
           <h1 className='text-6xl md:text-7xl lg:text-8xl'>Be <b>Better</b> & <br /> <b>Built</b> Different.</h1>
           {/* MOBILE LETS TALK */}
           <div className="md:hidden flex mt-6">
-            <Button style="hero">Let's talk</Button>
+            <Button style="hero">Let&apos;s talk</Button>
           </div>
         </div>
       <div>
