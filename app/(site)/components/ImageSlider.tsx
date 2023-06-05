@@ -46,10 +46,12 @@ const ImageSlider = () => {
         ))}
       </div>
       <div className="flex justify-end items-center mt-4 gap-2">
-        <Button onClick={goToPrevious} className="bg-slate-400 aspect-square hover:bg-slate-600 transition">
+        <Button onClick={goToPrevious} className="bg-slate-500 hover:bg-slate-600 transition">
           <HiOutlineArrowLeft />
+          Previous
         </Button>
-        <Button onClick={goToNext} className="aspect-square" style="hero">
+        <Button onClick={goToNext} style="hero">
+          Next
           <HiOutlineArrowRight />
         </Button>
       </div>
